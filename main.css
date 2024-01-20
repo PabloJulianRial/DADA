@@ -3,7 +3,45 @@
   padding: 0;
 }
 
+body {
+  padding: 2rem;
+}
+
 .nav {
   display: flex;
-  width: 100%;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(44, 172, 227);
+}
+
+.screenshot-1 {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.dada {
+  font-size: 60px;
+}
+
+.login-button {
+  font-size: 20px;
+  width: 7rem;
+  height: 4rem;
+  background-color: rgb(255, 255, 255);
 }/*# sourceMappingURL=main.css.map */
